@@ -1,0 +1,124 @@
+header {
+    position: relative;
+    height: 300px;
+    background-image: url(../images/header.jpg);
+    -webkit-background-size: auto 300px;
+    background-size: auto 300px;
+}
+
+main {
+    height: 500px;
+    background: url(../images/main.jpg) no-repeat;
+    -webkit-background-size: auto;
+    background-size: 100%;
+    opacity: 0.4;
+
+}
+
+.nav {
+    position: absolute;
+    background-color: #fff;
+    height: 50px;
+    width: 50%;
+    -webkit-transform: translate(50%, 250px);
+    -moz-transform: translate(50%, 250px);
+    -ms-transform: translate(50%, 250px);
+    -o-transform: translate(50%, 250px);
+    transform: translate(50%, 250px);
+    opacity: 0.8;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    position: relative;
+    width: 25%;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+.nav ul li a {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 27%;
+    margin: auto;
+    color:white;
+    font-weight:bold;
+
+}
+
+.card:nth-child(1) {
+    background: rgba(38, 85, 255, 0.2);
+}
+
+.card:nth-child(2) {
+    background: rgba(38, 85, 255, 0.5);
+}
+
+.card:nth-child(3) {
+    background: rgba(38, 85, 255, 0.8);
+}
+
+.release {
+    width: 50%;
+    height: 12%;
+    margin: 0 auto;
+    border:1px blue solid;
+    background: #dcdcdc;
+}
+
+.input{
+    color: #fff;
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+.portrait {
+    width: 20%;
+    height: inherit;
+}
+
+.portrait img {
+    margin: 30px auto 30px 30px;
+}
+
+.content {
+    width: 55%;
+    height: inherit;
+    margin: 30px 0;
+    color:white;
+    font-weight:bold;
+}
+
+.content span {
+    margin: 50px 0;
+}
+
+.time {
+    width: 25%;
+    line-height: 137px;
+}
+
+.content img {
+    width: 20px;
+    height: 30px;
+}
