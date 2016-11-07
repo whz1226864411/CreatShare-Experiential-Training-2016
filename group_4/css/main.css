@@ -80,16 +80,33 @@ ul {
     width: 50%;
     height: 12%;
     margin: 0 auto;
-    border:1px blue solid;
     background: #dcdcdc;
 }
 
 .input{
     color: #fff;
-    width: 80%;
-    height: 30px;
-    padding: 5px;
-    margin: 10px 20px;
+    width: 70%;
+    height: 28px;
+    padding: 3px 15px;
+    margin: 13px 5px 10px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px ;
+    border:1px solid black;
+}
+
+div.release label{
+    width:30%;
+    color:blue;
+    font-weight:bold;
+    letter-spacing:2px;
+    border :1px solid blue;
+    height:30px;
+    padding:8px 35px ;
+    margin:5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px ;
 }
 
 .portrait {
@@ -122,3 +139,6 @@ ul {
     width: 20px;
     height: 30px;
 }
+
+
+
