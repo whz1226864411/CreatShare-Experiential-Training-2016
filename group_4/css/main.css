@@ -15,6 +15,12 @@ main {
 
 }
 
+#main > div {
+    width: 50%;
+    margin: auto;
+    border: 1px solid blue;
+}
+
 .nav {
     position: absolute;
     background-color: #fff;
@@ -41,26 +47,31 @@ ul {
     position: relative;
     width: 25%;
     line-height: 50px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
     background-color: #fff;
+}
+
+.nav ul li.on {
+    background: linear-gradient(to top, rgba(38, 85, 255, 0.2), white);
 }
 
 .nav ul li a {
     display: block;
-    text-align: center;
     line-height: 50px;
     text-decoration: none;
-    color: blue;
-    font-weight: bold;
+
 }
 
 .card {
     display: flex;
     flex-direction: row;
-    width: 50%;
     height: 27%;
     margin: auto;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
 
 }
 
@@ -77,36 +88,59 @@ ul {
 }
 
 .release {
-    width: 50%;
     height: 12%;
     margin: 0 auto;
     background: #dcdcdc;
 }
 
-.input{
+.input {
     color: #fff;
-    width: 70%;
+    width: 65%;
     height: 28px;
     padding: 3px 15px;
     margin: 13px 5px 10px 20px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
-    border-radius: 15px ;
-    border:1px solid black;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
-div.release label{
-    width:30%;
-    color:blue;
-    font-weight:bold;
-    letter-spacing:2px;
-    border :1px solid blue;
-    height:30px;
-    padding:8px 35px ;
-    margin:5px;
+div.release button {
+    width: 20%;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 1px solid blue;
+    height: 35px;
+    padding: 8px 35px;
+    margin: 5px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px ;
+    border-radius: 10px;
+}
+
+.rank {
+    display: flex;
+    flex-direction: row;
+    height: 27%;
+    margin: 15px auto;
+}
+
+.rank  div {
+    margin: auto 15px;
+}
+
+
+.rank  div p{
+    border: 1px solid black;
+    background: #CCFFFF;
+    width: 350px;
+    height:45px;
+    line-height:45px;
+    padding:5px 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .portrait {
@@ -122,8 +156,8 @@ div.release label{
     width: 55%;
     height: inherit;
     margin: 30px 0;
-    color:white;
-    font-weight:bold;
+    color: white;
+    font-weight: bold;
 }
 
 .content span {
@@ -140,5 +174,8 @@ div.release label{
     height: 30px;
 }
 
+.hide {
+    display: none;
+}
 
 

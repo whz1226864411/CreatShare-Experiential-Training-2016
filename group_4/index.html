@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>running-togather</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="js/clickNav.js"></script>
 </head>
 <body>
 
@@ -14,59 +16,91 @@
         <div class="search-bar"></div>
         <div class="nav">
             <ul>
-                <li><a href="">排行榜</a></li>
-                <li><a href="">约跑</a></li>
-                <li><a href="">个人资料</a></li>
-                <li><a href="">联系CreatShare</a></li>
+                <li >排行榜</li>
+                <li class="on">约跑</li>
+                <li>个人资料</li>
+                <li>联系CreatShare</li>
             </ul>
         </div>
     </div>
 </header>
-<main>
-    <div class="card">
-        <div class="portrait">
-            <img src="images/portrait.png" alt="portrait">
+<main id="main">
+    <div class="hide">
+        <div class="card">
+            <div class="portrait">
+                <img src="images/portrait.png" alt="portrait">
+            </div>
+            <div class="content">
+                <span>用户A<img src="images/female.png"></span>
+                <p>地点，时间，对同伴的要求。</p>
+            </div>
+            <div class="time">
+                <span>2016/11/5/23：04</span>
+            </div>
         </div>
-        <div class="content">
-            <span>用户A<img src="images/female.png"></span>
-            <p>地点，时间，对同伴的要求。</p>
-        </div>
-        <div class="time">
-            <span>2016/11/5/23：04</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="portrait">
-            <img src="images/portrait.png" alt="portrait">
-        </div>
-        <div class="content">
-            <span>用户A<img src="images/female.png"></span>
-            <p>地点，时间，对同伴的要求。</p>
-        </div>
-        <div class="time">
-            <span>2016/11/5/23：04</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="portrait">
-            <img src="images/portrait.png" alt="portrait">
-        </div>
-        <div class="content">
-            <span>用户A<img src="images/female.png"></span>
-            <p>地点，时间，对同伴的要求。</p>
-        </div>
-        <div class="time">
-            <span>2016/11/5/23：04</span>
-        </div>
-    </div>
-    <div class="release">
-        <form action="">
-            <input type="text" class="input" placeholder="
+        <div class="release">
+            <form action="">
+                <input type="text" class="input" placeholder="
 想怎么约？在这里输入">
-            <label>发布</label>
+                <button>发布</button>
 
-        </form>
+            </form>
+        </div>
     </div>
+    <div >
+        <div class="rank">
+            <div><img src="images/sort/1.png"></div>
+            <div><img src="images/portrait.png"></div>
+            <div>
+               <p>
+                   <span>姓名</span>
+                   <span>1.0 Km</span>
+               </p>
+
+            </div>
+        </div>
+        <div class="rank">
+            <div>
+                <p>
+                    <span>姓名</span>
+                    <span>1.0 Km</span>
+                </p>
+            </div>
+            <div><img src="images/portrait.png"></div>
+            <div><img src="images/sort/2.png"></div>
+        </div>
+        <div class="rank">
+
+        </div>
+        <div class="rank">
+            <div><img src="images/sort/3.png"></div>
+            <div><img src="images/portrait.png"></div>
+            <div>
+                <p>
+                    <span>姓名</span>
+                    <span>1.0 Km</span>
+                </p>
+
+            </div>
+        </div>
+        <div class="rank">
+            <div>
+                <p>
+                    <span>姓名</span>
+                    <span>1.0 Km</span>
+                </p>
+            </div>
+            <div><img src="images/portrait.png"></div>
+            <div><img src="images/sort/4.png"></div>
+        </div>
+    </div>
+    <div class="hide">
+        user information
+    </div>
+    <div class="hide">
+        internet
+    </div>
+
 </main>
 <footer></footer>
 
