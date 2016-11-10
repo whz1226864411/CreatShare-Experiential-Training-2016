@@ -50,7 +50,7 @@ ul {
     text-align: center;
     color: blue;
     cursor: pointer;
-    font-weight: bold;
+
     background-color: #fff;
 }
 
@@ -58,14 +58,8 @@ ul {
     background: linear-gradient(to top, rgba(38, 85, 255, 0.2), white);
 }
 
-.nav ul li a {
-    display: block;
-    line-height: 50px;
-    text-decoration: none;
 
-}
-
-.card {
+#card {
     display: flex;
     flex-direction: row;
     height: 27%;
@@ -75,15 +69,15 @@ ul {
 
 }
 
-.card:nth-child(1) {
+#card:nth-child(1) {
     background: rgba(38, 85, 255, 0.2);
 }
 
-.card:nth-child(2) {
+#card:nth-child(2) {
     background: rgba(38, 85, 255, 0.5);
 }
 
-.card:nth-child(3) {
+#card:nth-child(3) {
     background: rgba(38, 85, 255, 0.8);
 }
 
