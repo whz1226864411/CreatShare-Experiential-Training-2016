@@ -1,4 +1,4 @@
-window.onload = function () {
+function clickNav() {
   var ul = document.getElementsByTagName("ul")[0];
   var lis = ul.getElementsByTagName("li");
   var div = document.getElementById("main");
@@ -20,4 +20,6 @@ window.onload = function () {
   }
 
 };
+
+
 
