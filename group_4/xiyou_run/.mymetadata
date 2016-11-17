@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="xiyou_run"
+  id="myeclipse.1479018804118"
+  context-root="/xiyou_run"
+  j2ee-spec="5.0"
+  archive="xiyou_run.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
